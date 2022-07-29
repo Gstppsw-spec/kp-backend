@@ -59,3 +59,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Instalation
+
+- buat satu buah database dengan nama " data_dana "
+- import file dana_kematian.sql kedalam database
+- ubah file examp .env menjadi .env lalu ubah configuras dibagian nama database menjadi " data_dana "
+- jalan kan composer install di terminal pada folder 
+- jalankan php artisan serve untuk memulai
